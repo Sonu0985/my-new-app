@@ -1,0 +1,23 @@
+.side-menu-bar{
+font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+width: 20%;
+border: 5px  grey;
+padding-bottom:1em;
+border-radius: 2px;
+line-height: 2;
+}
+
+.side-menu-item{
+    display: flex;
+    background-color: rgba(141, 136, 88, 0.81);
+    text-align: center;
+    text-decoration: none;
+    margin:2px; 
+    padding-top:2em;
+    position: relative;
+    text-indent:60px;
+    border:2px  solid #52242A;
+    border-radius: 5px;
+}
+
+

@@ -1,0 +1,26 @@
+
+  div.menu-option{
+   display:flex;
+   flex-direction: row-reverse;
+   background-color: #663300;
+ }
+ 
+ ul.top-menu-bar li{
+  list-style-type: none;
+  float:left;
+  font-size: 14px;
+  font-weight: bold;
+  padding:0em 0.5em;
+  margin:16px;
+     
+ }
+ 
+ ul.top-menu-bar a{
+     cursor: pointer;
+     border-radius: 5px;
+     background-color:#3C931E;
+     padding: 0.4em 4.9em;
+     color: #FFFFFF;
+     text-align: center;
+     text-decoration: none;
+ }
