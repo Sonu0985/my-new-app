@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 
 export class verticalMenuComponent{
     menuItemName:any[]=[
+        {"name":"Sai Blog"},
         {"name":"INFORMATION"},
         {"name":"ON GOING PROJECT"},
         {"name":"FUTURE PLAN"},

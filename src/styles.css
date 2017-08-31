@@ -1,11 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
 *{
     box-sizing: border-box;
+    margin:0px;
   }
   
   body{
     width:100%;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans';
     color:#333;
     margin:0;
+  }
+
+  .nav-footer{
+    width:100%;
+    height:8.5em;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+
+ul.footer-list li{
+  list-style-type: none;
+  display: inline;
+  justify-content: center;
+}
+
+ul.footer-list a{
+  text-decoration: none;
+  color: #fff;
+  font-family:'Times New Roman', Times, serif;
+  margin:1px;
+}
+.only-icon{
+  display: flex;
+  flex-direction: column;
+}
+
+.contentinfo p{
+  display: inline;
+  justify-content: center;
+  }
+.contentinfo a{
+    text-decoration: none;
+    color: #fff;
   }

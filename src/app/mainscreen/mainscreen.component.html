@@ -1,7 +1,14 @@
-<div>
-    <vertical-menu></vertical-menu>
-    <p></p>
-    <p></p>
-    <img>
-    <img>
+<div class='main-screen'>
+    <vertical-menu class='vertical-menu'></vertical-menu>
+    <span id='p-message'>
+            <p class='para-1' *ngFor='let paragraph of paragraphContent'>{{paragraph.content}}</p>
+    </span>
+    <span class='mainscreen-image' >
+        <img *ngFor='let imageDetail of imageDetails'
+             [src]='imageDetail.imageUrl'
+             [title]='imageDetail.imageTitle'
+             [style.width.em]='imageDetail.imageWidth'
+             [style.margin.px]='imageDetail.imageMargin'
+             id='image-prop'>
+    </span>
 </div>

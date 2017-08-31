@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import {sidemenuComponent} from './sidemenu/sidemenu.component';
 import { AppComponent } from './app.component';
+import { mainscreenComponent } from './mainscreen/mainscreen.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     sidemenuComponent,
-  verticalMenuComponent],
+  verticalMenuComponent,
+  mainscreenComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
