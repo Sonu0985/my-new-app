@@ -1,14 +1,34 @@
 <div class='main-screen'>
     <vertical-menu class='vertical-menu'></vertical-menu>
-    <span id='p-message'>
-            <p class='para-1' *ngFor='let paragraph of paragraphContent'>{{paragraph.content}}</p>
-    </span>
-    <span class='mainscreen-image' >
-        <img *ngFor='let imageDetail of imageDetails'
-             [src]='imageDetail.imageUrl'
-             [title]='imageDetail.imageTitle'
-             [style.width.em]='imageDetail.imageWidth'
-             [style.margin.px]='imageDetail.imageMargin'
-             id='image-prop'>
-    </span>
+    <div id='p-message'>
+            <img class='mainImage'
+                 [src]='mainImageUrl'
+                 [title]='mainImageTitle'>
+            <div class="text-message">
+                <h1 class='sai-mission'>Mission</h1>
+                <p class='para-1'><b class='trust-name'>"Shree Sai Baba Samagik  
+                Kalyan Trust"</b> foster  with the  
+                sole  motive  for societal  welfare 
+                and Growth. With a Vision of social welfare among the devotee.
+                The Trust has below visions for future</p>
+                <ul id='trust-visions'>
+                    <li class="vision-list" *ngFor='let visionData of visionDatas'>
+                     <a href='#' class='visions'>
+                        {{visionData.href}}</a>
+                        <p class='vision-para'>{{visionData.Detail}}</p>        
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div class='side-image-icon'>
+         <img *ngFor='let imageDetail of imageDetails'
+        [src]='imageDetail.imageUrl'
+        [title]='imageDetail.imageTitle'
+        [style.width.em]='imageDetail.imageWidth'
+        [style.height.em]='imageDetail.imageHeight'
+        [style.cursor]='imageDetail.cursor'
+        [style.margin-left.em]='imageDetail.imageMarginleft'
+        [style.margin-top.em]='imageDetail.imageMargintop'
+        id='image-prop'>  
+    </div>   
 </div>

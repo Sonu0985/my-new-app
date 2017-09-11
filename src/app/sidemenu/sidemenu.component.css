@@ -6,20 +6,20 @@
    height:45px;
  }
 
- #horizontal-menu-bar.top-menu-bar{
+ #horizontal-menu-bar.top-menu-bar
+ {
    margin-top:0px;
-
  }
  
- ul.top-menu-bar li{
+ ul.top-menu-bar li
+ {
   list-style-type: none;
   float:left;
   font-size: 14px;
   font-weight: bold;
   padding:0em 0.5em;
   margin:16px;
-     
- }
+  }
  
  ul.top-menu-bar a{
      cursor: pointer;

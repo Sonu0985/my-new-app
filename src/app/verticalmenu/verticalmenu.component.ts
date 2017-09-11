@@ -3,15 +3,16 @@ import { Component } from '@angular/core';
 @Component({
     selector:'vertical-menu',
     templateUrl:'./verticalmenu.component.html',
-    styleUrls:['./verticalmenu.component.css']    
+    styleUrls:['./verticalmenu.component.less']    
 })
 
 export class verticalMenuComponent{
     menuItemName:any[]=[
         {"name":"Sai Blog"},
-        {"name":"INFORMATION"},
-        {"name":"ON GOING PROJECT"},
-        {"name":"FUTURE PLAN"},
-        {"name":"SUGGESTION"},
-        {"name":"CONTACT US"}]
+        {"name":"Information"},
+        {"name":"On Going Project"},
+        {"name":"Future Plan"},
+        {"name":"Suggestion"},
+        {"name":"News"},
+        {"name":"Contact Us"}]
     }
